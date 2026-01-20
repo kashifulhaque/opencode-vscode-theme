@@ -1,0 +1,5 @@
+.vscode/
+reference.json
+*.vsix
+*.log
+.DS_Store

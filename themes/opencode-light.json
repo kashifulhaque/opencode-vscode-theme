@@ -1,0 +1,194 @@
+{
+  "name": "Opencode theme for VS Code (Light)",
+  "type": "light",
+  "colors": {
+    "foreground": "#1a1a1a",
+    "descriptionForeground": "#318795",
+    "focusBorder": "#034cff",
+    "errorForeground": "#fc533a",
+
+    "activityBar.background": "#f8f7f7",
+    "activityBar.foreground": "#1a1a1a",
+    "activityBar.inactiveForeground": "#8e8b8b",
+    "activityBarBadge.background": "#034cff",
+    "activityBarBadge.foreground": "#ffffff",
+
+    "sideBar.background": "#fcfcfc",
+    "sideBar.foreground": "#1a1a1a",
+    "sideBarSectionHeader.background": "#f8f7f7",
+    "sideBarSectionHeader.foreground": "#1a1a1a",
+    "sideBarTitle.foreground": "#1a1a1a",
+
+    "editor.background": "#f8f7f7",
+    "editor.foreground": "#1a1a1a",
+    "editorLineNumber.foreground": "#8e8b8b",
+    "editorLineNumber.activeForeground": "#1a1a1a",
+    "editorCursor.foreground": "#034cff",
+    "editor.selectionBackground": "#dafbe0",
+    "editor.selectionHighlightBackground": "#e1fbf4",
+    "editor.inactiveSelectionBackground": "#e1fbf4",
+    "editor.wordHighlightBackground": "#fff1e7",
+    "editor.wordHighlightStrongBackground": "#feeef8",
+    "editor.findMatchBackground": "#ffdc17",
+    "editor.findMatchHighlightBackground": "#fff1e7",
+    "editor.hoverHighlightBackground": "#0500000f",
+    "editor.lineHighlightBackground": "#0500000f",
+    "editorLink.activeForeground": "#3b7dd8",
+
+    "editorWhitespace.foreground": "#8a8a8a",
+    "editorIndentGuide.background": "#8a8a8a",
+    "editorIndentGuide.activeBackground": "#1a1a1a",
+    "editorRuler.foreground": "#8a8a8a",
+
+    "editorError.foreground": "#fc533a",
+    "editorWarning.foreground": "#ffdc17",
+    "editorInfo.foreground": "#0092a8",
+
+    "terminal.background": "#f8f7f7",
+    "terminal.foreground": "#1a1a1a",
+    "terminalCursor.foreground": "#034cff",
+
+    "panel.background": "#fcfcfc",
+    "panel.border": "#ffffff",
+
+    "tab.activeBackground": "#fcfcfc",
+    "tab.activeForeground": "#1a1a1a",
+    "tab.inactiveBackground": "#f8f7f7",
+    "tab.inactiveForeground": "#8e8b8b",
+    "tab.border": "#ffffff",
+
+    "statusBar.background": "#f8f7f7",
+    "statusBar.foreground": "#1a1a1a",
+    "statusBar.noFolderBackground": "#f8f7f7",
+    "statusBar.debuggingBackground": "#ffdc17",
+
+    "titleBar.activeBackground": "#f8f7f7",
+    "titleBar.activeForeground": "#1a1a1a",
+    "titleBar.inactiveBackground": "#fcfcfc",
+    "titleBar.inactiveForeground": "#8e8b8b",
+
+    "input.background": "#fdfcfc",
+    "input.foreground": "#1a1a1a",
+    "input.placeholderForeground": "#8e8b8b",
+    "input.border": "#ffffff",
+
+    "dropdown.background": "#ffffff",
+    "dropdown.foreground": "#1a1a1a",
+    "dropdown.border": "#ffffff",
+
+    "list.activeSelectionBackground": "#dafbe0",
+    "list.activeSelectionForeground": "#1a1a1a",
+    "list.inactiveSelectionBackground": "#e1fbf4",
+    "list.hoverBackground": "#0500000f",
+
+    "badge.background": "#034cff",
+    "badge.foreground": "#ffffff",
+
+    "progressBar.background": "#034cff",
+    "scrollbar.shadow": "#0500000f",
+    "scrollbarSlider.background": "#0500000f",
+    "scrollbarSlider.hoverBackground": "#1f000017",
+    "scrollbarSlider.activeBackground": "#1f000017"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#8a8a8a"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#006656"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": ["keyword", "storage", "storage.type"],
+      "settings": {
+        "foreground": "#b0851f"
+      }
+    },
+    {
+      "name": "Numbers",
+      "scope": ["constant.numeric", "constant.language.boolean"],
+      "settings": {
+        "foreground": "#fb4804"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator", "punctuation.separator", "punctuation.terminator"],
+      "settings": {
+        "foreground": "#1a1a1a"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "meta.definition.variable"],
+      "settings": {
+        "foreground": "#1a1a1a"
+      }
+    },
+    {
+      "name": "Constants",
+      "scope": ["constant", "variable.other.constant"],
+      "settings": {
+        "foreground": "#007b80"
+      }
+    },
+    {
+      "name": "Types",
+      "scope": ["entity.name.type", "support.type"],
+      "settings": {
+        "foreground": "#596600"
+      }
+    },
+    {
+      "name": "Properties",
+      "scope": ["variable.other.property", "meta.object-literal.key"],
+      "settings": {
+        "foreground": "#ed6dc8"
+      }
+    },
+    {
+      "name": "Functions",
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#318795"
+      }
+    },
+    {
+      "name": "Regex",
+      "scope": ["string.regexp"],
+      "settings": {
+        "foreground": "#1a1a1a"
+      }
+    },
+    {
+      "name": "Markdown headings",
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#d68c27",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown links",
+      "scope": ["markup.underline.link", "string.other.link"],
+      "settings": {
+        "foreground": "#3b7dd8"
+      }
+    },
+    {
+      "name": "Markdown code",
+      "scope": ["markup.inline.raw", "markup.fenced_code"],
+      "settings": {
+        "foreground": "#3d9a57"
+      }
+    }
+  ]
+}

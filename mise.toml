@@ -1,0 +1,9 @@
+[tools]
+bun = "latest"
+
+[tasks."package"]
+description = "Package the extension"
+run = """
+bun add -g @vscode/vsce
+vsce package
+"""

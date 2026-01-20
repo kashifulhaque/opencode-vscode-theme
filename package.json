@@ -1,0 +1,32 @@
+{
+  "name": "opencode-vscode-theme",
+  "displayName": "Opencode theme for VS Code",
+  "description": "VS Code theme generated from OpenCode reference JSON.",
+  "version": "0.0.1",
+  "publisher": "opencode",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kashifulhaque/opencode-vscode-theme.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Opencode theme for VS Code (Light)",
+        "uiTheme": "vs",
+        "path": "./themes/opencode-light.json"
+      },
+      {
+        "label": "Opencode theme for VS Code (Dark)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/opencode-dark.json"
+      }
+    ]
+  }
+}
